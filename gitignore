@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Model artifacts / generated data — do not commit
+models.pkl
+mas_sanctions.db
+SAML-D.csv
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# Env / secrets
+.env
+*.key
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
